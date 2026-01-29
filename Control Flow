@@ -1,51 +1,3 @@
-# 1. for-loop vs while-loop
-print("FOR LOOP:")
-for i in range(1, 6):
-    print(i)
-
-print("\nWHILE LOOP:")
-x = 1
-while x <= 5:
-    print(x)
-    x += 1
-
-
-# 2. Iterating over a collection
-print("\nITERATING OVER A LIST:")
-fruits = ["apple", "banana", "mango"]
-for fruit in fruits:
-    print(fruit)
-
-
-# 3. pass statement
-print("\nPASS STATEMENT EXAMPLE:")
-number = 10
-if number > 5:
-    pass  # placeholder, no action yet
-print("Program did not crash 👍")
-
-
-# 4. match-case (Python 3.10+)
-print("\nMATCH-CASE EXAMPLE:")
-day = 3
-match day:
-    case 1:
-        print("Monday")
-    case 2:
-        print("Tuesday")
-    case 3:
-        print("Wednesday")
-    case _:
-        print("Unknown day")
-
-
-# 5. Avoiding infinite loops
-print("\nAVOIDING INFINITE LOOP:")
-count = 1
-while count <= 3:
-    print("Count:", count)
-    count += 1
-
 #Decision Making: if,elif,else
 #Exercise 1:Check age
 age = 15
@@ -132,6 +84,7 @@ for number in range(1,31):
 
     else:
         print(number)
+
 
 
 
